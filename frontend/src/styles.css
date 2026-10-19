@@ -366,6 +366,48 @@ tbody tr:hover { background: #eef5ff; }
   font-size: 13px;
 }
 
+.mode-switch {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.mode-switch button {
+  border: 1px solid var(--line);
+  background: #fff;
+  color: var(--navy);
+  border-radius: 999px;
+  padding: 8px 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.mode-switch button.active {
+  background: var(--navy);
+  color: #fff;
+  border-color: var(--navy);
+}
+
+.lookup-box {
+  margin-top: 14px;
+  padding: 14px;
+  border-radius: 14px;
+  background: var(--ice);
+  border: 1px solid var(--line);
+}
+
+.lookup-box.found {
+  background: var(--ok-bg);
+  border-color: #8fd0b0;
+}
+
+.lookup-box p { margin: 8px 0 0; }
+
+button.chip {
+  cursor: pointer;
+  font-family: inherit;
+}
+
 @media (max-width: 1100px) {
   .app-shell { grid-template-columns: 1fr; }
   .sidebar { height: auto; position: relative; }

@@ -7,7 +7,7 @@ import BlocksPage from "./pages/BlocksPage.jsx";
 
 const NAV = [
   { id: "dashboard", label: "Financeiro" },
-  { id: "scan", label: "Bipar cartelas" },
+  { id: "scan", label: "Bipador" },
   { id: "lots", label: "Lotes" },
   { id: "blocks", label: "Tabela de pagamentos" },
 ];
