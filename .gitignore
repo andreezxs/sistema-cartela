@@ -1,0 +1,6 @@
+node_modules/
+backend/data.json
+.monkeycode-tmp-files/
+*.log
+.env
+.DS_Store
